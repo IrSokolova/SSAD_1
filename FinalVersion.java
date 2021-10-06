@@ -1,3 +1,5 @@
+package Code;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.Scanner;
@@ -630,13 +632,13 @@ class AIShop {
 
     public void fillTheListOfProducts() {
 
-        this.products.add(new Item("dress", 6.22, "red", "dinosaurs","Italy"));
+        this.products.add(new ItalianItem("dress", 6.22, "red", "dinosaurs","Italy"));
 
-        this.products.add(new Food("croissant", 1.33,"Italian"));
+        this.products.add(new ItalianFood("croissant", 1.33,"Italian"));
 
-        this.products.add(new Item("dress", 3.62, "red", "triangles","France"));
+        this.products.add(new FrenchItem("dress", 3.62, "red", "triangles","France"));
 
-        this.products.add(new Food("frogs' legs", 84.44, "French"));
+        this.products.add(new FrenchFood("frogs' legs", 84.44, "French"));
     }
 
     public void addProduct(Product product) {
